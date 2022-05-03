@@ -2,9 +2,29 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="vtb-nexus-public" />
+      <option name="name" value="vtb-nexus-public" />
+      <option name="url" value="http://nexus.corp.dev.vtb/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="vtb-nexus-ci-pfomb" />
+      <option name="name" value="vtb-nexus-ci-pfomb" />
+      <option name="url" value="https://nexus-ci.corp.dev.vtb/repository/pfomb-maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="vtb-nexus-ci-sgbp-fnpi-snapshot" />
+      <option name="name" value="vtb-nexus-ci-sgbp-fnpi-snapshot" />
+      <option name="url" value="https://nexus-ci.corp.dev.vtb/repository/sgbp_fnpi-maven-snapshot/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="vtb-nexus-ci-pfom" />
+      <option name="name" value="vtb-nexus-ci-pfom" />
+      <option name="url" value="https://nexus-ci.corp.dev.vtb/repository/pfom-maven-lib/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -12,9 +32,19 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="vtb-nexus-ci-sgbp-fnpi-lib" />
+      <option name="name" value="vtb-nexus-ci-sgbp-fnpi-lib" />
+      <option name="url" value="https://nexus-ci.corp.dev.vtb/repository/sgbp_fnpi-maven-lib/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="vtb-nexus-ci-usbp-lib" />
+      <option name="name" value="vtb-nexus-ci-usbp-lib" />
+      <option name="url" value="https://nexus-ci.corp.dev.vtb/repository/usbp-maven-lib/" />
     </remote-repository>
   </component>
 </project>

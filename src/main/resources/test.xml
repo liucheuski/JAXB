@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<organization>
+    <name>Firma</name>
+    <address>Minsk</address>
+    <departments>
+        <department>
+            <deptNo>1</deptNo>
+            <deptName>Accounting</deptName>
+            <location>Grodno</location>
+            <employees>
+                <employee>
+                    <empNo>1</empNo>
+                    <empName>Tom</empName>
+                </employee>
+                <employee>
+                    <empNo>2</empNo>
+                    <empName>Jack</empName>
+                    <managerNo>1</managerNo>
+                </employee>
+                <employee>
+                    <empNo>3</empNo>
+                    <empName>Roberto</empName>
+                </employee>
+            </employees>
+        </department>
+    </departments>
+</organization>

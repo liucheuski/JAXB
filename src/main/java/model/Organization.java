@@ -2,6 +2,7 @@ package model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.xml.bind.annotation.*;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.FIELD)
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Organization {
     private String name;
     private String address;
